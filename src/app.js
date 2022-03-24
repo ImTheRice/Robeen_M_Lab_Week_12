@@ -35,4 +35,11 @@ function scholarfunction() {
     return studentsScholarship
 
 }
+
 console.log(scholarfunction())
+
+function darkmode() {
+    const divone = document.querySelector(".light-theme")
+    divone.classList.toggle('dark-theme')
+}
+darkmode()
